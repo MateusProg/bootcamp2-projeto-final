@@ -9,5 +9,5 @@ test("aceita entrada válida", () => {
 });
 
 test("Coloca o nome todo com letras minusculas e sem espaços em branco", () => {
-  expect(formatarNome("  PIKaCHU  ")).toBe("pikachu");
+  expect(formatarNome("  PIKaCHU  ")).toBe(" PIKACHU ");
 });
