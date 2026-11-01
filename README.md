@@ -15,7 +15,7 @@ Busca um pokémon a partir do nome do mesmo, útil para saber informações simp
 Banco de dados PostgreSQL hosteado no SUPABASE, possui ID, data de quando foi persistido, 6 JSONs de pokémons que compoem um time e um nome para caso queiram nomear o mesmo.
 
 ## Como executar localmente
-1. Clone: `git clone https://github.com/MateusProg/bootcamp2-app`
+1. Clone: `git clone https://github.com/MateusProg/bootcamp2-projeto-final`
 2. Abra o arquivo `index.html` no navegador
 
 # Comando Docker Run
