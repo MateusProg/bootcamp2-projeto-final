@@ -21,8 +21,8 @@ async function buscarDados(termo) {
 }
 
 document.getElementById("botao-buscar").addEventListener("click", () => {
-  const termo = document.getElementById("campo-busca").value.toLowerCase().trim();
-  if (termo) buscarDados(termo);
+  const termo = document.getElementById("campo-busca").value.toLowerCase().trim(); // --> Deixa tudo com letras minusculas e sem espaços em branco
+  if (termo) buscarDados(termo); // --> Rejeita Entrada Vazia
 });
 
 var currentData;
