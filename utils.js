@@ -1,5 +1,10 @@
-function soma(a, b){
-    return a+b
+function validarEntrada(termo){
+    if (termo) return true
+    return false
 }
 
-module.exports = soma
+function formatarNome(termo){
+    return termo.toLowerCase().trim();
+}
+
+module.exports = {validarEntrada, formatarNome}
